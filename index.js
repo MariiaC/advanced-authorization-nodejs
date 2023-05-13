@@ -1,10 +1,10 @@
 require('dotenv').config();
 const express = require('express');
-const cors = require('cors');
-const cookieParser = require('cookie-parser');
+// const cors = require('cors');
+// const cookieParser = require('cookie-parser');
 
 
-// создаем екземпляр приложения
+// створюємо екземпляр додатку
 const app = express();
 
 const PORT = process.env.PORT;
